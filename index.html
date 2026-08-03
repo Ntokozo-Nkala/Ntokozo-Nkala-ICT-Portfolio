@@ -1,0 +1,542 @@
+<!--
+=========================================================
+Portfolio Website
+Author: Ntokozo M. Nkala
+
+Copyright © 2026 Ntokozo M. Nkala
+All Rights Reserved.
+
+Unauthorized copying, modification,
+distribution or commercial use of
+this software or any portion of it
+is strictly prohibited.
+=========================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Ntokozo M. Nkala">
+  <meta name="copyright" content="Copyright © 2026 Ntokozo M. Nkala. All Rights Reserved.">
+  <meta name="description" content="Portfolio of Ntokozo M. Nkala, a Software Engineering student and Front-End Developer specializing in web development.">
+  <link rel="icon" type="image/png" href="pictures/logos/Copilot_20260501_060449.png" />
+  <title>Ntokozo Nkala | Software Engineer</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fontawesome.com/icons/font?f=classic&amp;s=light" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Outfit:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="glass-nav" id="navbar">
+    <div class="nav-inner">
+      <a class="nav-brand">Ntokozo Nkala.</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#inquiries">Enquiries</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="about">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 class="hello">Hello World,</h1>
+        <div class="binary-area">
+          <span id="codeOutput"></span><span class="cursor" id="cursor">|</span>
+        </div>
+
+        <button class="toggle-btn" id="toggleBtn">Binary ⇄ English</button>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="social-links-row">
+          <a href="https://www.linkedin.com/in/ntokozo-m-nkala-448bb6302/" target="_blank" class="social-icon-btn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Ntokozo-Nkala" target="_blank" class="social-icon-btn" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          
+          <a href="https://wa.me/27810009346?text=Hi%20Ntokozo,%20I'd%20like%20to%20discuss%20a%20project!" target="_blank" class="social-icon-btn" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+          <a href="#" target="_blank" class="social-icon-btn" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+
+          
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="pictures/grey-shacket.png" alt="Ntokozo Nkala" />
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="about-section">
+    <div class="about-container">
+      <div class="about-section-header">
+        <h2>About Me</h2>
+        <p>A short story, and a few numbers that sum up my journey</p>
+      </div>
+
+      <div class="about-bio">
+        <p>Hi, I'm Ntokozo Nkala a Software Engineer | Aspiring Machine Learning Engineer. I design and develop modern, responsive, and user-centered web applications that combine clean design with efficient code. Passionate about technology and continuous learning, I enjoy transforming ideas into intuitive digital experiences that are both visually appealing and built for performance. Whether it's a business website, portfolio, or interactive web application, I'm committed to delivering high-quality solutions with attention to detail, usability, and scalability.
+           Building digital experiences that make an impact - one project at a time.</p>
+      </div>
+
+      <div class="about-stats-grid">
+        <div class="about-stat-card">
+          <h3>2+</h3>
+          <p>Years Experience</p>
+        </div>
+        <div class="about-stat-card">
+          <h3>11+</h3>
+          <p>Projects Shipped</p>
+        </div>
+        <div class="about-stat-card">
+          <h3>2+</h3>
+          <p>Years Freelancing</p>
+        </div>
+        <div class="about-stat-card">
+          <h3>8+</h3>
+          <p>Programming Languages</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div><br>
+
+      <!-- ── PROGRAMMING LANGUAGES ───────────────────────────────── -->
+    <h2 class="skills-heading">Skills</h2>
+    <section class="skills-section" id="skills">
+  <div class="sk-shell">
+ 
+    <div class="sk-vlabel">
+      <span class="vl-dash">—</span>
+      <span>02</span>
+      <span class="vl-title">SKILLS</span>
+    </div>
+ 
+    <div class="sk-body">
+ 
+      <div class="sk-inspector">
+        <div class="sk-insp-header">
+          <div class="win-dot r"></div>
+          <div class="win-dot y"></div>
+          <div class="win-dot g"></div>
+          <span class="sk-prompt">nkala@dev:~$ skill --inspect</span>
+        </div>
+        <div class="sk-json" id="skJson"></div>
+        <div class="sk-prof">
+          <div class="sk-prof-label">
+            <span>PROFICIENCY</span>
+            <span class="pval" id="skProfVal">98%</span>
+          </div>
+          <div class="sk-prof-track">
+            <div class="sk-prof-fill" id="skProfFill" style="width:98%"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sk-grid" id="skGrid"></div>
+ 
+    </div>
+  </div>
+</section>
+
+  <div class="section-divider"></div>
+
+  <!-- ── EDUCATION & CERTIFICATIONS ───────────────────────── -->
+  <section class="edu-section" id="education">
+    <h2 class="section-title">ICT EXPOSURE</h2>
+    <div class="edu-wrap">
+      <div class="edu-col">
+        <div class="section-heading">
+          <img class="e-learning-icon" src="pictures/logos/e-learning_14602461.png" alt="E-Learning">
+          <h2>EDUCATION</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-card">
+            <div class="card-dot"></div>
+            <div class="card-line"></div>
+            <div class="card-body">
+              <div class="card-tag">Apr 2026 - Present</div>
+              <h3 class="card-title">Machine Learning Specialization</h3>
+              <div class="card-institution">
+                <img class="education-logo" src="pictures/logos/stanford_university_logo.jpg" alt="">Stanford University
+              </div>
+              <p class="card-desc">Specializing in Artificial Intelligence and Machine Learning.</p>
+            </div>
+          </article>
+
+          <article class="timeline-card">
+            <div class="card-dot"></div>
+            <div class="card-line"></div>
+            <div class="card-body">
+              <div class="card-tag">Feb 2026 - Present</div>
+              <h3 class="card-title">Diploma in IT in Software Development</h3>
+              <div class="card-institution">
+                <img class="education-logo" src="pictures/logos/RI-LOGO.png" alt="">Rosebank International
+              </div>
+              <p class="card-desc">Specializing in Software Development.</p>
+            </div>
+          </article>
+
+          <article class="timeline-card">
+            <div class="card-dot"></div>
+            <div class="card-line"></div>
+            <div class="card-body">
+              <div class="card-tag">Nov 2025 - May 2026</div>
+              <h3 class="card-title">Front-End Development Libraries Certification</h3>
+              <div class="card-institution">
+                <img class="education-logo" src="pictures/logos/free_code_camp_logo.jpg" alt="">freeCodeCamp
+              </div>
+              <p class="card-desc">Built Web Applications with Frameworks like React, Angular, and Vue.</p>
+            </div>
+          </article>
+
+          <div class="extra-edu hidden">
+            <article class="timeline-card">
+              <div class="card-dot"></div>
+              <div class="card-line"></div>
+              <div class="card-body">
+                <div class="card-tag">Jul 2025 - Feb 2026</div>
+                <h3 class="card-title">HarvardX CS50 Introduction to Computer Science</h3>
+                <div class="card-institution">
+                  <img class="education-logo" src="pictures/logos/Harvard-University.jpg" alt="">Harvard University
+                </div>
+                <p class="card-desc">An Introduction to the Intellectual Enterprises of Computer Science and the art of Programming.</p>
+              </div>
+            </article>
+
+            <article class="timeline-card">
+              <div class="card-dot"></div>
+              <div class="card-line"></div>
+              <div class="card-body">
+                <div class="card-tag">Jul 2025 - Jul 2025</div>
+                <h3 class="card-title">Cloud Computing</h3>
+                <div class="card-institution">
+                  <img class="education-logo" src="pictures/logos/Huawei-Ict-Academy.jpg" alt="">Huawei ICT Academy
+                </div>
+                <p class="card-desc">Development and Basic Concepts of Cloud Computing.</p>
+              </div>
+            </article>
+
+            <article class="timeline-card">
+              <div class="card-dot"></div>
+              <div class="card-line"></div>
+              <div class="card-body">
+                <div class="card-tag">Mar 2025 - Apr 2025</div>
+                <h3 class="card-title">UI/UX Design</h3>
+                <div class="card-institution">
+                  <img class="education-logo" src="pictures/logos/melsoftza_logo.jpg" alt="">Melsoft Academy
+                </div>
+                <p class="card-desc">User Interface Design • User Experience Design • Mobile Interface Design.</p>
+              </div>
+            </article>
+
+            <article class="timeline-card">
+              <div class="card-dot"></div>
+              <div class="card-line"></div>
+              <div class="card-body">
+                <div class="card-tag">Feb 2024 - Jul 2024</div>
+                <h3 class="card-title">Front-End Development</h3>
+                <div class="card-institution">
+                  <img class="education-logo" src="pictures/logos/melsoftza_logo.jpg" alt="">Melsoft Academy
+                </div>
+                <p class="card-desc">Building Web Pages with Front-End Languages.</p>
+              </div>
+            </article>
+          </div>
+          <button class="edu-toggle-btn" id="eduToggle">Read More</button>
+        </div>
+      </div>
+
+      <!-- ── CERTIFICATIONS ───────────────────────────── -->
+      <div class="edu-col">
+        <div class="section-heading">
+          <img class="certificate-icon" src="pictures/logos/certificate_4450549.png" alt="Certificates">
+          <h2>CERTIFICATIONS</h2>
+        </div>
+
+        <div class="cert-list">
+          <article class="cert-card">
+            <div class="cert-badge">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="18" stroke="#00bcd1" stroke-width="2"/>
+                <path d="M13 20l5 5 9-10" stroke="#00bcd1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">Front-end Development</h3>
+              <span class="cert-level">Certificate</span>
+              <div class="cert-year">2026</div>
+            </div>
+            <div class="cert-stripe"></div>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-badge">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="18" stroke="#00bcd1" stroke-width="2"/>
+                <path d="M13 20l5 5 9-10" stroke="#00bcd1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">Cloud Computing</h3>
+              <span class="cert-level">Certificate</span>
+              <div class="cert-year">2025</div>
+            </div>
+            <div class="cert-stripe"></div>
+          </article>
+
+          <article class="cert-card">
+            <div class="cert-badge">
+              <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="18" stroke="#00bcd1" stroke-width="2"/>
+                <path d="M13 20l5 5 9-10" stroke="#00bcd1" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="cert-info">
+              <h3 class="cert-title">Melsoft Front-End Development</h3>
+              <span class="cert-level">Certificates</span>
+              <div class="cert-year">2024</div>
+            </div>
+            <div class="cert-stripe"></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ── PROJECTS ───────────────────────────── -->
+  <section class="projects-section" id="projects">
+    <h2 class="projects-title">My Latest Projects</h2>
+    <div class="projects-grid">
+      <a href="https://nn-notable-sockwear.netlify.app/" target="_blank" class="project-card">
+        <img src="pictures/project-images/notable sockwear.png" alt="Notable Sockwear" />
+        <div class="project-content">
+          <h3>Notable Sockwear</h3>
+          <p>Sockwear Brand</p>
+        </div>
+      </a>
+
+      <a href="https://cotton-toil-website.netlify.app/" target="_blank" class="project-card">
+        <img src="pictures/project-images/Cottontoil.png" alt="Cotton Toil" />
+        <div class="project-content">
+          <h3>Cotton Toil</h3>
+          <p>Clothing Brand</p>
+        </div>
+      </a>
+
+      <a href="https://nn-diamond-tech.netlify.app/" target="_blank" class="project-card">
+        <img src="pictures/project-images/Diamond tech.png" alt="Diamond Tech" />
+        <div class="project-content">
+          <h3>Diamond Tech</h3>
+          <p>ICT Company</p>
+        </div>
+      </a>
+
+      <a href="https://nkala-industrial-contractors.netlify.app/" target="_blank" class="project-card">
+        <img src="pictures/project-images/NIC-PROJECT-IMAGE.png" alt="Nkala IC" />
+        <div class="project-content">
+          <h3>Nkala IC</h3>
+          <p>Contractors Company</p>
+        </div>
+      </a>
+      
+
+      <a href="https://starquality-barbershop-website.netlify.app/" target="_blank" class="project-card">
+        <img src="pictures/project-images/starquality.png" alt="StarQuality Barbershop" />
+        <div class="project-content">
+          <h3>StarQuality Barbershop</h3>
+          <p>Barbershop</p>
+        </div>
+      </a>
+
+      <a href="https://nova-capital-investment.netlify.app/" target="_blank" class="project-card">
+        <img src="pictures/project-images/nova-capital.png" alt="Nova Capital" />
+        <div class="project-content">
+          <h3>Nova Capital</h3>
+          <p>Investment Firm</p>
+        </div>
+      </a>
+
+      <a href="https://swirly-sips-corner.netlify.app/" target="_blank" class="project-card">
+        <img src="pictures/project-images/Screenshot 2026-08-02 180432.png" alt="The weedery bloem" />
+        <div class="project-content">
+          <h3>Mbali's Swirly Sip's Corner</h3>
+          <p>Smoothie Business</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ── ENQUIRIES & CONTACT ───────────────────────────── -->
+  <section class="contact-section" id="contact">
+    <div class="contact-container" id="inquiries">
+      <div class="contact-section-header">
+        <h2>Get In Touch</h2>
+        <p>Tell me about your project and I'll be in touch as soon as possible.</p>
+      </div>
+
+      <div class="contact-layout-split">
+        <div class="contact-info-card">
+          <div class="contact-info-header">
+            <h3>Contact Info</h3>
+            <p>Let's connect! Get in touch using the details below. I'm available for freelance opportunities and full-time roles.</p>
+          </div>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <div class="contact-icon-circle">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>My Location</h4>
+                <p>Bloemfontein, FreeState</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon-circle">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>Phone Number</h4>
+                <p>+27810009346</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon-circle">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <h4>Email Address</h4>
+                <p>ntokozonkala.dev@outlook.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-social-links-row">
+            <a href="https://www.linkedin.com/in/ntokozo-m-nkala-448bb6302/" target="_blank" class="social-icon-btn" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Ntokozo-Nkala" target="_blank" class="social-icon-btn" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+               
+            <a href="https://wa.me/27810009346?text=Hi%20Ntokozo,%20I'd%20like%20to%20discuss%20a%20project!" target="_blank" class="social-icon-btn" aria-label="WhatsApp">
+                   <i class="fa-brands fa-whatsapp"></i>
+                   </a> 
+
+            <a href="#" target="_blank" class="social-icon-btn" aria-label="TikTok">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <form action="https://formspree.io/f/mojovzje" method="POST" id="contactForm" novalidate>
+            <div class="contact-form-row">
+              <div class="contact-form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="contact-form-group">
+                <input type="email" id="email" name="_replyto" placeholder="Your Email" required>
+              </div>
+            </div>
+
+            <div class="contact-form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject" required>
+            </div>
+
+            <div class="contact-form-group">
+              <select id="service" name="service" required>
+                <option value="" disabled selected>How can I help you?</option>
+                <option value="new-web-application">Build a new web application</option>
+                <option value="redesign-optimize">Re-design or optimize an existing website</option>
+                <option value="networking-developers">General Networking / Other Developers</option>
+              </select>
+            </div>
+
+            <div class="contact-form-group">
+              <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="contact-form-submit">
+              <button type="submit" class="contact-btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2>
+          Ntokozo <span>Nkala</span>
+        </h2>
+        <p>
+          Software Engineer building creative, responsive and real-world digital solutions.
+        </p>
+      </div>
+
+      <div class="footer-socials">
+        <h3>Let's Connect</h3>
+        <div class="footer-icons">
+          <a href="https://www.linkedin.com/in/ntokozo-m-nkala-448bb6302/" class="social-icon-btn" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/Ntokozo-Nkala" class="social-icon-btn" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+        <a href="https://wa.me/27810009346?text=Hi%20Ntokozo,%20I'd%20like%20to%20discuss%20a%20project!" target="_blank" class="social-icon-btn" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+          <a href="https://x.com" class="social-icon-btn" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <br>
+    <p>
+    <a href="copyright.html" class="copyright-link">
+        <span class="copyright-icon">©</span>
+    </a>
+    2026 Ntokozo M. Nkala. All rights reserved.
+</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
