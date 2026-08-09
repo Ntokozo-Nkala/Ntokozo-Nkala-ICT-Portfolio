@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ntokozo-nkala-ict-portfolio.vercel.app/sitemap.xml
